@@ -1,18 +1,48 @@
 #include <stdio.h>
-int sum(int x, int y){
-    int compute;
-    printf("Starting the computation!\n");
-    compute = x+y;
-    printf("Finished the computation successfully!\n");
-    return compute;
+void printLine(int nCols, char pattern);
+void printTriangle(int nLines, char pattern);
+void printRectangle(int nLines, int nCols, char pattern);
+
+int main(void)
+{
+   int nCols;
+   int nLines;
+
+   printf("How many columns would you like? ");
+   scanf("%d", &nCols);
+   printLine(nCols, 'X');
+
+   printf("How many lines would you like? ");
+   scanf("%d", &nLines);
+   printTriangle(nLines, '*');
+   printf("\n");
+   printRectangle(nLines, nCols, '#');
 }
-int main(void) {
-    int a,b;
-    int result;
-    printf("Please enter two numbers: ");
-    scanf("%d%d", &a, &b);
-    printf("You entered %d and %d.\n", a, b);
-    result = sum(a, b);
-    printf("Result of the sum = %d.\n", result);
-    return 0;
+
+void printLine(int nCols, char pattern)
+{
+   int i;
+   for (i = 0; i < nCols; i++)
+   {
+      printf("%c", pattern);
+   }
+   printf("\n");
+}
+
+void printTriangle(int nLines, char pattern)
+{
+   int line, cols;
+   for (line = 0; line < nLines; line++)
+   {
+      cols = line + 1;
+      printLine(cols, pattern);
+   }
+}
+
+void printRectangle(int nLines, int nCols, char pattern)
+{
+   int i;
+   for (i = 0; i < nLines; i++){
+      printLine(nCols, pattern);
+   }
 }
