@@ -12,14 +12,20 @@ int main(void) {
     } else {
         mid=j/2;
     }
-    printf("%c", word[mid]);
+    //printf("%c", word[mid]);
     i=0;
-    while (word[i]!='t'||word[i]!='T'){
+    while (word[i]!='t'&&word[i]!='T'&&i!=j){
+        //printf("i=%d, j=%d, %c\n", i, j, word[i]);
+        //system("pause");
         i++;
     }
-    if (i<mid){
-        printf("%d",1);
-    }
 
+        if (i<=mid){
+            printf("%d",1);
+        } else if (i>mid&&i<j){
+            printf("%d", 2);
+        } else if (i==j){
+            printf("%d", -1);
+        }
     return 0;
 }
