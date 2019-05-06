@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1557146013 source:c:\users\baris\desktop\edx-c\cpp\testb\main.cpp
+	<iostream>
+	"Cat.h"
+
+1557146444 c:\users\baris\desktop\edx-c\cpp\testb\include\cat.h
+
+1557146304 source:c:\users\baris\desktop\edx-c\cpp\testb\src\cat.cpp
+	<iostream>
+	"Cat.h"
+
+1557147418 source:c:\users\baris\desktop\edx-c\cpp\testb01-02\src\cat.cpp
+	<iostream>
+	"Cat.h"
+
+1557147380 c:\users\baris\desktop\edx-c\cpp\testb01-02\include\cat.h
+
+1557146972 source:c:\users\baris\desktop\edx-c\cpp\testb01-02\main.cpp
+	<iostream>
+	"Cat.h"
+
