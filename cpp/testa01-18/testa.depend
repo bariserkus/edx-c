@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1557138418 source:c:\users\baris\desktop\edx-c\cpp\testa01-09\main.cpp
+	<iostream>
+
+1557138815 source:c:\users\baris\desktop\edx-c\cpp\testa01-11\main.cpp
+	<iostream>
+
+1557144979 source:c:\users\baris\desktop\edx-c\cpp\testa01-17\cat.cpp
+	<iostream>
+	"heads.h"
+
+1557145277 c:\users\baris\desktop\edx-c\cpp\testa01-17\heads.h
+
+1557145001 source:c:\users\baris\desktop\edx-c\cpp\testa01-17\main.cpp
+	<iostream>
+	"heads.h"
+
