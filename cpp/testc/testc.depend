@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1557154025 source:d:\edx-c\cpp\testc\main.cpp
+	<iostream>
+	"Car.h"
+	"Person.h"
+
+1557153032 d:\edx-c\cpp\testc\car.h
+
+1557153074 source:d:\edx-c\cpp\testc\car.cpp
+	<iostream>
+	"Car.h"
+
+1557154315 source:d:\edx-c\cpp\testc\src\person.cpp
+	"Person.h"
+
+1557154283 d:\edx-c\cpp\testc\include\person.h
+	<iostream>
+
