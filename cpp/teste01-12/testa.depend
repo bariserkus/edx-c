@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1557204092 source:c:\users\baris\desktop\edx-c\cpp\teste01-02\main.cpp
+	<iostream>
+
+1557204092 source:c:\users\baris\desktop\edx-c\cpp\teste01-03\main.cpp
+	<iostream>
+
+1557211115 source:c:\users\baris\desktop\edx-c\cpp\teste01-08\main.cpp
+	<iostream>
+
+1557214151 source:c:\users\baris\desktop\edx-c\cpp\teste01-10\main.cpp
+	<iostream>
+
+1557217116 source:c:\users\baris\desktop\edx-c\cpp\teste01-12\src\cat.cpp
+	"Cat.h"
+
+1557217098 c:\users\baris\desktop\edx-c\cpp\teste01-12\include\cat.h
+	<iostream>
+
+1557216936 source:c:\users\baris\desktop\edx-c\cpp\teste01-12\main.cpp
+	<iostream>
+	"Cat.h"
+	"Animals.h"
+
+1557217213 source:c:\users\baris\desktop\edx-c\cpp\teste01-12\src\animals.cpp
+	"Animals.h"
+
+1557217210 c:\users\baris\desktop\edx-c\cpp\teste01-12\include\animals.h
+	<iostream>
+
